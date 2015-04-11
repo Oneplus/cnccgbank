@@ -14,7 +14,8 @@ import re
 from munge.proc.filter import Filter
 from munge.trees.traverse import nodes, leaves
 from munge.util.tgrep_utils import get_first
-from munge.penn.nodes import Node, Leaf
+#from munge.penn.nodes import Node, Leaf
+from munge.penn.aug_nodes import Node, Leaf
 
 from munge.util.list_utils import first_index_such_that
 from munge.util.func_utils import satisfies_all
